@@ -3,12 +3,12 @@ proxies:
   server: vidio.xtls.my.id
   port: 443
   type: trojan
-  password: fbc088b5-2fb4-4542-b0ca-75a8c8fea574
+  password: 2c1db40c-007e-4acf-8c32-5ed645f037ff
   network: ws
-  sni: nusa.lowh.site
+  sni: sggs-2.storevpn.cc
   skip-cert-verify: true
   udp: true
   ws-opts:
-    path: "/trojan"
+    path: /trojan
     headers:
-      Host: nusa.lowh.site
+      Host: sggs-2.storevpn.cc
