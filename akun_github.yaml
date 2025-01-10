@@ -12,3 +12,17 @@ proxies:
     path: /trojan
     headers:
       Host: sggs-2.storevpn.cc
+- name: GITSG
+  server: support.zoom.us
+  port: 443
+  type: trojan
+  password: 20039b61-e2f1-4ee6-9641-00daad827133
+  network: ws
+  sni: x.comterongovh.my.id
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: x.comterongovh.my.id
+
