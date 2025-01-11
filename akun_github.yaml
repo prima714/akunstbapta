@@ -1,5 +1,5 @@
 proxies:
-- name: AKUN-GITNEW
+- name: GITYT
   server: support.zoom.us
   port: 443
   type: trojan
@@ -25,4 +25,43 @@ proxies:
     path: /trojan-ws
     headers:
       Host: x.comterongovh.my.id
+- name: Git-Fx1
+  server: zaintest.vuclip.com
+  port: 443
+  type: trojan
+  password:  b0d566e3-be73-4407-ac4d-17dd9f0cfb8f
+  network: ws
+  sni: x.comnusa190.my.id
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+  headers:
+    Host: x.comnusa190.my.id
+- name: Git-v1
+  server: 104.22.5.240
+  port: 443
+  type: trojan
+  password:  b0d566e3-be73-4407-ac4d-17dd9f0cfb8f
+  network: ws
+  sni: x.comnusa190.my.id
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+  headers:
+    Host: x.comnusa190.my.id
+- name: Git-v2
+  server: quiz.int.vidio.com
+  port: 443
+  type: trojan
+  password:  b0d566e3-be73-4407-ac4d-17dd9f0cfb8f
+  network: ws
+  sni: x.comnusa190.my.id
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+  headers:
+    Host: x.comnusa190.my.id
 
