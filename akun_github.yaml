@@ -25,4 +25,46 @@ proxies:
     path: /trojan-ws
     headers:
       Host: x.comterongovh.my.id
+- name: GITSG2
+  server: 104.17.3.81
+  port: 443
+  type: trojan
+  password: 20039b61-e2f1-4ee6-9641-00daad827133
+  network: ws
+  sni: x.comterongovh.my.id
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: x.comterongovh.my.id
+- name: GITSG3
+  server: live.iflix.com
+  port: 443
+  type: trojan
+  password: 20039b61-e2f1-4ee6-9641-00daad827133
+  network: ws
+  sni: x.comterongovh.my.id
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: x.comterongovh.my.id
+- name: GITSG4
+  server: hwvip.iflix.com
+  port: 443
+  type: trojan
+  password: 20039b61-e2f1-4ee6-9641-00daad827133
+  network: ws
+  sni: x.comterongovh.my.id
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: x.comterongovh.my.id
+
+
+
 
